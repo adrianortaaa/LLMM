@@ -14,7 +14,7 @@ Breve descripción: Crea una página con el texto facilitado e incluye las etiqu
 
 ### Ejercicio 2
 Breve descripción: Crea una página html que incluya seis niveles de cabecera seguidas de un pequeño párrafo de texto.
-[Texto del Enlace]()
+[Texto del Enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio2.html)
 
 
 
