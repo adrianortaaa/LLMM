@@ -8,7 +8,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **nombredelm�
 
 ### Ejercicio 1
 Breve descripción:
-[Texto del Enlace](URL-del-enlace)
+[Texto del Enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio1.html)
 
 ### Ejercicio 2
 Breve descripción:
