@@ -9,8 +9,6 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **nombredelm�
 ### Ejercicio 1
 Breve descripción: 
 Crea una página con el texto facilitado e incluye las etiquetas necesarias.
-
-
 [Texto del Enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio1.html)
 
 ### Ejercicio 2
@@ -38,6 +36,13 @@ encabezados.
 ### Ejercicio 6
 Breve descripción:
 Modifica la página anterior para incluir distintos formatos de texto.
-
 [Texto del enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio6.html)
+
+
+### Ejercicio 7
+Breve descripción:
+Cambia los atributos de la página para cambiar el fondo y color. Prueba con las
+distintas opciones.
+[Texto del enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio7.html)
+
 
