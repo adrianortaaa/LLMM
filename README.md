@@ -33,4 +33,4 @@ Crea una página html que muestre el siguiente aspecto:
 Breve descripción:
 Crea una página que contenga varios párrafos, con distinta alineación y con
 encabezados.
-[Texto del enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio5.html)
+[Texto del enlace]()
