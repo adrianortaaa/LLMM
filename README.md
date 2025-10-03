@@ -39,5 +39,5 @@ encabezados.
 Breve descripción:
 Modifica la página anterior para incluir distintos formatos de texto.
 
-[Texto del enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio5.html)
+[Texto del enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio6.html)
 
