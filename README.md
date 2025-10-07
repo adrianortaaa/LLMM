@@ -45,4 +45,8 @@ Cambia los atributos de la página para cambiar el fondo y color. Prueba con las
 distintas opciones.
 [Texto del enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio7.html)
 
+### Ejercicio 8
+Breve descripción:Haz el ejercicio mostrado en el siguiente enlace:
+[Texto del enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio8.html)
+
 
