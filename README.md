@@ -14,7 +14,7 @@ Este repositorio incluye actividades llevadas a cabo en el m√≥dulo **nombredelm√
 | 1     |      6    | [Texto del Enlace](Ejercicio6.html)  |
 | 1     |      7    | [Texto del Enlace](Ejercicio7.html)  |
 | 1     |      8    | [Texto del Enlace](Ejercicio8.html)  |
-| 1     |      9    | [Texto del Enlace](Ejercicio9)       |
+| 1     |      9    | [Texto del Enlace]([Ejercicio9])       |
 | 1     |      10   | [Texto del Enlace](Ejercicio10.html) |
 | 1     |      11   | [Texto del Enlace](Ejercicio11.html) |
 | 1     |      12   | [Texto del Enlace](Ejercicio12.html) |
