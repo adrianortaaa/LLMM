@@ -13,7 +13,7 @@ Este repositorio incluye actividades llevadas a cabo en el m√≥dulo **nombredelm√
 | 1     |      6    | [Texto del Enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio6.html) |
 | 1     |      7    | [Texto del Enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio7.html) |
 | 1     |      8    | [Texto del Enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio8.html) |
-| 1     |      9    | [Texto del Enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio9.html) |
+| 1     |      9    | [Texto del Enlace](https://github.com/adrianortaaa/LLMM/tree/main/Ejercicio9)      |
 | 1     |      10   | [Texto del Enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio10.html) |
 | 1     |      11   | [Texto del Enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio11.html) |
 | 1     |      12   | [Texto del Enlace](https://github.com/adrianortaaa/LLMM/blob/main/Ejercicio12.html) |
