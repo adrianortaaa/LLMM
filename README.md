@@ -14,7 +14,7 @@ Este repositorio incluye actividades llevadas a cabo en el m√≥dulo **nombredelm√
 | 1     |      6    | [Texto del Enlace](Ejercicio6.html)  |
 | 1     |      7    | [Texto del Enlace](Ejercicio7.html)  |
 | 1     |      8    | [Texto del Enlace](Ejercicio8.html)  |
-| 1     |      9    | [Texto del Enlace](Ejercicio9/index.html)       |
+| 1     |      9    | [Texto del Enlace](Ejercicio9/index.html)|
 | 1     |      10   | [Texto del Enlace](Ejercicio10.html) |
 | 1     |      11   | [Texto del Enlace](Ejercicio11.html) |
 | 1     |      12   | [Texto del Enlace](Ejercicio12.html) |
@@ -22,7 +22,7 @@ Este repositorio incluye actividades llevadas a cabo en el m√≥dulo **nombredelm√
 | 1     |      14   | [Texto del Enlace](Ejercicio14.html) |
 | 1     |      15   | [Texto del Enlace](Ejercicio15.html) |
 | 1     |      16   | [Texto del Enlace](Ejercicio16.html) |
-| 1     |      17   | [Texto del Enlace](Ejercicio17.html) |
+| 1     |      17   | [Texto del Enlace](Ejercicio17/index.html)|
 | 1     |      18   | [Texto del Enlace](Ejercicio18.html) |
 | 1     |      19   | [Texto del Enlace](Ejercicio19.html) |
 | 1     |      20   | [Texto del Enlace](Ejercicio20.html) |
