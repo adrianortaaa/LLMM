@@ -6,35 +6,74 @@
     <title>Ejercicio17</title>
 </head>
 <body>
-    <style>
+ <style>
 
     table {
-      border-collapse: collapse;
-      width: 100%;
-      font-family: Arial, sans-serif;
-      border: solid;
+        border-collapse: collapse;
+        width: 100%;
+        font-family: Arial, sans-serif;
+        border: solid 1px #000;
     }
 
     th, td {
-      border: 1px solid #000;
-      padding: 8px 12px;
-      text-align: center;
-      color: black;
-      font-weight: bold;
+        border: 1px solid #000;
+        padding: 8px 12px;
+        font-weight: bold;
     }
 
-    </style>
+    td {
+        text-align: left;
+        vertical-align: middle;
+        color: black;
+    }
+
+    td img {
+        display: block;
+        margin: 0 auto;
+        
+    }
+</style>
 
     <table>
         <tr>
-            <td>Imagen</td>
-            <td>Datos</td>
+            <th>Imagen</th>
+            <th>Datos</th>
         </tr>
 
         <tr>
-            <td style="background-image: /Fotos/portatil.png"></td>
-            
+            <td><img src="Fotos/portatil.png" alt="Portatil"></td>
+            <td>
+                <a href="Portatatil">Portátil - 3GHz - 4GB RAM</a> <br>
+                <a href="Comprar">Comprar:</a> <s>2.990€</s> 2.559 €
+            </td>
         </tr>
+
+        <tr>
+            <td><img class="imagen" src="Fotos/videocamara.png" alt="videocamara"></td>
+            <td>
+                <a href="Videocamara">Videocámara - Alta definición 1080p - 60 GB</a> <br>
+                <a href="Comprar">Comprar</a> <s>1.099€</s> 999€
+            </td>
+        </tr>
+
+          <tr>
+            <td><img src="Fotos/tv.png" alt="tv"></td>
+            <td>
+                <a href="Televisor">Televisor - 46" - Full HD</a> <br>
+                <a href="Comprar">Comprar</a> <s>1.999€</s> 1.799€
+            </td>
+        </tr>
+
+        <tr>
+            <td><img src="Fotos/movil.png" alt="movil"></td>
+            <td>
+                <a href="Movil">Móvil - 3GB -Wi-Fi - 8 GB</a> <br>
+                <a href="Comprar">Comprar</a> <s>399€</s> 349€
+            </td>
+        </tr>
+
+
+
 
 
 
