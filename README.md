@@ -5,7 +5,7 @@ Este repositorio incluye actividades llevadas a cabo en el m√≥dulo **nombredelm√
 ---
 
 | TEMA  | Ejercicio | Enlace | 
-| HTML  |           |        |
+|           HTML             |
 | ----- | --------- | ------ |
 | 1     |      1    | [Texto del Enlace](Ejercicio1.html)  |
 | 1     |      2    | [Texto del Enlace](Ejercicio2.html)  |
