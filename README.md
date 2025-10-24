@@ -24,7 +24,7 @@ Este repositorio incluye actividades llevadas a cabo en el m√≥dulo **nombredelm√
 | 1     |      16   | [Texto del Enlace](Ejercicio16.html) |
 | 1     |      17   | [Texto del Enlace](Ejercicio17/Ejercicio17.html)|
 | 1     |      18   | [Texto del Enlace](Ejercicio18/Ejercicio18.html)|
-| 1     |      19   | [Texto del Enlace](Ejercicio19.html) |
+| 1     |      19   | [Texto del Enlace](Ejercicio19/Ejercicio19.html)|
 | 1     |      20   | [Texto del Enlace](Ejercicio20.html) |
 
 
