@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio24</title>
+</head>
+
+<!-- El método GET se usa para consultas, búsquedas o filtros ya que no soporta archivos y su seguridad
+ es baja mientras que POST se usa para rellenar formularios con datos sensibles debido a su alta seguridad y que
+ soporta archivos-->
+ 
+<body>
+    
+    <form class="formulario-cv" method="post"">
+        <h2>Rellena tu CV</h2>
+
+        <label for="Nombre">Nombre</label> <br>
+        <input type="text" id="Nombre" name="Nombre" maxlength="30">
+
+        <br>
+
+        <label for="Apellidos">Apellidos</label> <br>
+        <input type="text" id="Apellidos" name="Apellidos" maxlength="80"">
+
+        <br>
+
+        <label for="Contraseña">Contraseña</label> <br>
+        <input type="password" name="password" id="password" maxlength="10">
+
+        <br>
+
+        <label for="DNI">DNI</label> <br>
+        <input type="text" name="DNI" id="DNI">
+
+        <br>
+
+        <label for="Sexo">Sexo</label> <br>
+        <div class="Sexo">
+            <input type="radio" id="Hombre" name="Sexo" value="Hombre">
+            <label for="Hombre">Hombre</label>
+            <input type="radio" id="Mujer" name="Sexo" value="Mujer">
+            <label for="Mujer">Mujer</label>
+        </div>
+
+        <br>
+
+        <label for="Foto">Incluir mi Foto</label> 
+        <input type="file" id="Foto" name="Foto" value="Elegir"> <br>
+
+        <br>
+
+        <div class="Suscripcion">
+            <input type="checkbox" id="boletin" name="boletin" checked>
+            <label for="boletin">Subscribirme al boletin de novedades</label>
+        </div>
+
+        <br>
+        
+
+        <div class="Botones">
+            <input type="submit" value="Guardar Cambios">
+            <input type="reset" value="Borrar los datos introducidos">
+        </div>
+
+    </form>
+</body>
+</html>
