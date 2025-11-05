@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio25</title>
+</head>
+<body>
+    <body>
+    
+    <form class="formulario-cv" method="post"">
+        <h2>Rellena tu CV</h2>
+
+        <label for="Nombre">Nombre</label> <br>
+        <input type="text" id="Nombre" name="Nombre" maxlength="30">
+
+        <br>
+
+        <label for="Apellidos">Apellidos</label> <br>
+        <input type="text" id="Apellidos" name="Apellidos" maxlength="80"">
+
+        <br>
+
+        <label for="Contraseña">Contraseña</label> <br>
+        <input type="password" name="password" id="password" maxlength="10">
+
+        <br>
+
+        <label for="DNI">DNI</label> <br>
+        <input type="text" name="DNI" id="DNI">
+
+        <br>
+
+        <label for="Sexo">Sexo</label> <br>
+        <div class="Sexo">
+            <input type="radio" id="Hombre" name="Sexo" value="Hombre">
+            <label for="Hombre">Hombre</label>
+            <input type="radio" id="Mujer" name="Sexo" value="Mujer">
+            <label for="Mujer">Mujer</label>
+        </div>
+
+        <br>
+
+        <label for="Foto">Incluir mi Foto</label> 
+        <input type="file" id="Foto" name="Foto" value="Elegir"> <br>
+
+        <br>
+
+        <div class="Suscripcion">
+            <input type="checkbox" id="boletin" name="boletin" checked>
+            <label for="boletin">Subscribirme al boletin de novedades</label>
+        </div>
+
+        <br>
+        
+
+        <div class="Botones">
+            <input type="submit" value="Guardar Cambios">
+            <input type="reset" value="Borrar los datos introducidos">
+        </div>
+
+        <br>
+
+        <div class="Datos Personales" style="border: solid 1px;">
+            <label for="Datos Personales">Datos Personales</label> <br><br>
+
+            <label for="Provincia">Provincia</label> <br>
+            <select id="Provincia" name="Provincia">
+                <option value="">Selecciona</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Huelva">Huelva</option>
+                <option value="Sevilla">Sevilla</option>
+                <option value="Cadiz">Cadiz</option>
+                <option value="Malaga">Malaga</option>
+            </select>
+
+            <br> <br>
+
+            <label for="Fecha de Nacimiento">Fecha de Nacimiento</label> <br>
+            <input type="number" id="Dia" name="Dia" min="1" max="31" style="width: 50px;">
+            
+            de
+
+            <select id="mes" name="mes">
+            <option>Enero</option>
+            <option>Febrero</option>
+            <option>Marzo</option>
+            <option>Abril</option>
+            <option>Mayo</option>
+            <option>Junio</option>
+            <option>Julio</option>
+            <option>Agosto</option>
+            <option>Septiembre</option>
+            <option>Octubre</option>
+            <option>Noviembre</option>
+            <option>Diciembre</option>
+            </select>
+
+            de
+        
+            <input type="number" id="anio" name="anio" min="1900" max="2025" style="width: 60px;">
+
+            <br><br>
+
+
+            <label for="Tema de Interes">Tema de Interes</label> <br>
+            <select id="Temas" name="Temas" size="5" multiple>
+                <option>Administracion de Bases de Datos</option>
+                <option>Análisis y Programacion</option>
+                <option>Arquitectura</option>
+                <option>Calidad</option>
+                <option>ERP, CRM, Bussiness Intelligence</option>
+            </select>
+
+
+
+        </div>
+
+    </form>
+</body>
+</html>
