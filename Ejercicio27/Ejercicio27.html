@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 27 - Videos en HTML</title>
+</head>
+<body>
+    <h1>Esta es mi página Web para introducir un video</h1>
+
+    <video id="video1" width="320" height="240" controls>
+        <source src="Videos/video.mp4" type="video/mp4">
+    </video>
+
+    <h1>Este es el segundo ejemplo de introducir videos en una web</h1>
+
+    <div style="text-align: center;">
+        <button onclick="playPause()">Play/Pause</button>
+        <button onclick="makeBig()">Big</button>
+        <button onclick="makeSmall()">Small</button>
+        <button onclick="makeNormal()">Normal</button>
+        <br><br>
+
+        <video id="video2" width="420" height="240">
+            <source src="Videos/video2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <script> 
+        var myVideo = document.getElementById("video2"); 
+
+        function playPause() { 
+            if (myVideo.paused) 
+                myVideo.play(); 
+            else 
+                myVideo.pause(); 
+        } 
+
+        function makeBig() { 
+            myVideo.width = 560; 
+        } 
+
+        function makeSmall() { 
+            myVideo.width = 320; 
+        } 
+
+        function makeNormal() { 
+            myVideo.width = 420; 
+        } 
+    </script> 
+</body>
+</html>
