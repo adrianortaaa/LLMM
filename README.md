@@ -34,3 +34,4 @@ Este repositorio incluye actividades llevadas a cabo en el m√≥dulo **nombredelm√
 | 1     |      26  | [Texto del Enlace](Ejercicio26/Ejercicio26.html)|
 | 1     |      27  | [Texto del Enlace](Ejercicio27/Ejercicio27.html)|
 | 1     |      28  | [Texto del Enlace](Ejercicio28/Ejercicio28.html)|
+| 1     |      29  | [Texto del Enlace](Ejercicio29/Ejercicio29.html)|
