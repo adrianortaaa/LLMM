@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Web4U — SVG Examples</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="Web4U — SVG shapes, paths, and text examples.">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo"><img src="Fotos/Logo SVG.png" alt="W4U" style="width:60px;height:60px;border-radius:15px"></div>
+      <div><div class="site-title">Web4U</div><div class="breadcrumb">Home › SVG</div></div>
+    </header>
+
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <a href="index-en.html" aria-current="page" title="Home">Home</a>
+      <a href="html-en.html" aria-current="page" title="HTML examples and reference">HTML</a>
+      <a href="svg-en.html" aria-current="page" title="SVG examples and reference">SVG</a>
+      <a href="css-en.html" aria-current="page" title="CSS examples and reference">CSS</a>
+    </nav>
+
+    <main class="card">
+      <h1 id="top">SVG — Basic Elements</h1>
+      <p class="small">Below are 5 SVG element examples with code and images.</p>
+
+      <section class="toc">
+        <h4>SVG Content</h4>
+        <ol>
+          <li><a href="#example1">path</a></li>
+          <li><a href="#example2">circle</a></li>
+          <li><a href="#example3">image</a></li>
+          <li><a href="#example4">text</a></li>
+          <li><a href="#example5">rect</a></li>
+        </ol>
+      </section>
+
+      <section id="example1" class="card" aria-labelledby="path-heading">
+        <h3 id="path-heading">&lt;path&gt;</h3>
+        <p class="small">The most versatile element, used to draw complex shapes and curves via commands (move, line, curve, etc.).</p> 
+        <div class="code" title="Code for path"> 
+          <pre>&lt;svg height="210" width="400" xmlns=""&gt;
+  &lt;path d="M150 0 L75 200 L225 200 Z" fill="orange" stroke="black" stroke-width="3" /&gt; 
+&lt;/svg&gt;</pre>
+        </div> 
+        <div class="example"><img src="Fotos/Path.png" alt="Rendered path (triangle)" style="max-width:100%"></div>
+        <p class="small"><a href="https://www.w3schools.com/graphics/svg_path.asp" title="W3 Schools path">W3 Schools: path</a></p>
+        <p class="small"><a href="#top" title="Go to Top">Back to Top ↑</a></p>
+      </section>
+
+      <section id="example2" class="card" aria-labelledby="circle-heading">
+        <h3 id="circle-heading">&lt;circle&gt;</h3>
+        <p class="small">Circular element with center coordinates and radius.</p>
+        <div class="code" title="Code for circle">
+<pre>&lt;svg width="200" height="120" xmlns="https://www.w3schools.com/graphics/svg_circle.asp"&gt;
+  &lt;circle cx="60" cy="60" r="30" fill="#e44" /&gt;
+&lt;/svg&gt;</pre>
+        </div>
+        <div class="example"><img src="Fotos/Circle.png" alt="Rendered circle" style="max-width:100%"></div>
+        <p class="small"><a href="https://www.w3schools.com/graphics/svg_circle.asp" title="W3 Schools circle">W3 Schools: circle</a></p>
+        <p class="small"><a href="#top" title="Go to Top">Back to Top ↑</a></p>
+      </section>
+
+      <section id="example3" class="card" aria-labelledby="image-heading">
+        <h3 id="image-heading">&lt;image&gt;</h3>
+        <p class="small">Used to embed an image inside an SVG.</p>
+        <div class="code" title="Code for image">
+<pre>&lt;svg height="200" width="300" xmlns="http://www.w3.org/2000/svg"&gt; 
+  &lt;image height="200" width="300" href="pulpitrock.jpg"&gt;
+&lt;/svg&gt;</pre>
+        </div>
+        <div class="example"><img src="Fotos/image.png" alt="SVG image" style="max-width:100%"></div>
+        <p class="small"><a href="https://www.w3schools.com/graphics/svg_image.asp" title="W3C image">W3 Schools: image</a></p>
+        <p class="small"><a href="#top" title="Go to Top">Back to Top ↑</a></p>
+      </section>
+
+      <section id="example4" class="card" aria-labelledby="text-heading">
+        <h3 id="text-heading">&lt;text&gt;</h3>
+        <p class="small">Text inside an SVG document.</p>
+        <div class="code" title="Code for text">
+<pre>&lt;svg height="30" width="200" xmlns="http://www.w3.org/2000/svg"&gt;
+  &lt;text x="5" y="15" fill="red"&gt;I love SVG!&lt;/text&gt;
+&lt;/svg&gt;</pre>
+        </div>
+        <div class="example"><img src="Fotos/TEXT.png" alt="Rendered SVG text" style="max-width:100%"></div>
+        <p class="small"><a href="https://www.w3schools.com/graphics/svg_text.asp" title="W3C text">W3 Schools: text</a></p>
+        <p class="small"><a href="#top" title="Go to Top">Back to Top ↑</a></p>
+      </section>
+
+      <section id="example5" class="card" aria-labelledby="rect-heading">
+        <h3 id="rect-heading">&lt;rect&gt;</h3>
+        <p class="small">The <code>&lt;rect&gt;</code> element is used to draw rectangles, defining its position, width, height, and optionally rounded corners.</p> 
+        <div class="code" title="Code for rect"> 
+<pre>&lt;svg height="200" width="400" xmlns="http://www.w3.org/2000/svg"&gt;
+  &lt;rect x="50" y="40" width="300" height="120" fill="lightgreen" stroke="black" stroke-width="3" rx="15" ry="15"/&gt;
+&lt;/svg&gt;</pre>
+        </div> 
+        <div class="example">
+          <svg height="200" width="400">
+            <rect x="50" y="40" width="300" height="120" fill="lightgreen" stroke="black" stroke-width="3" rx="15" ry="15"/>
+          </svg>
+        </div>
+        <div class="example"><img src="Fotos/react.png" alt="react svg" style="max-width:100%"></div>
+        <p class="small"><a href="https://www.w3schools.com/graphics/svg_rect.asp" title="W3 Schools rect">W3 Schools: rect</a></p>
+        <p class="small"><a href="#top" title="Go to Top">Back to Top ↑</a></p>
+      </section>
+
+      <aside class="small" style="margin-top:12px">
+        <a href="pdfs" title="Download SVG page PDF">Download this sheet as PDF</a>
+      </aside>
+    </main>
+
+    <footer class="small">Web4U — SVG Examples</footer>
+  </div>
+</body>
+</html>

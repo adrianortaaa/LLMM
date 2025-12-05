@@ -1,0 +1,238 @@
+/* ===== Web4U — Estilo claro y colorido ===== */
+
+:root {
+  /* Paleta de colores suaves */
+  --primary: #82cfff;       /* Azul claro */
+  --secondary: #ffe082;     /* Amarillo pastel */
+  --tertiary: #a7f3d0;      /* Verde pastel */
+  --bg: #f0f4f8;            /* Fondo general */
+  --card: #ffffff;           /* Fondo de tarjetas */
+  --text: #1f1f1f;           /* Texto principal */
+  --muted: #6b7280;          /* Texto secundario */
+  
+  --radius: 12px;
+  --shadow: 0 4px 12px rgba(0,0,0,0.06);
+  --hover-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* ----- Base ----- */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* ----- Header ----- */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius);
+  background: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.site-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.breadcrumb {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* ----- Navigation ----- */
+.nav {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.nav a {
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--primary);
+  background: var(--card);
+  box-shadow: var(--shadow);
+  transition: 0.25s;
+}
+
+.nav a:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--hover-shadow);
+  background: var(--primary);
+  color: #fff;
+}
+
+.nav a[aria-current="page"] {
+  background: var(--primary);
+  color: #fff;
+}
+
+/* ----- Grid & Cards ----- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--hover-shadow);
+}
+
+/* ----- Thumbnails ----- */
+.thumbnail {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.thumbnail img {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--radius);
+  object-fit: cover;
+}
+
+/* ----- Tabla de Contenido centrada con enlaces horizontales ----- */
+.toc-menu {
+  margin: 36px auto;
+  padding: 16px;
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  text-align: center;
+  max-width: 800px; /* Ajustable al ancho deseado */
+}
+
+.toc-menu h4 {
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* Lista horizontal debajo del título */
+.toc-menu ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap; /* Para que se adapte en móviles */
+}
+
+.toc-menu li {
+  margin: 0;
+}
+
+.toc-menu a {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: var(--radius);
+  background: var(--tertiary);
+  color: var(--text);
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.25s, background 0.25s, box-shadow 0.25s;
+}
+
+/* Hover animado */
+.toc-menu a:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--hover-shadow);
+  background: var(--secondary);
+  color: #1f1f1f;
+}
+
+/* Link activo */
+.toc-menu a.active {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 6px 16px var(--hover-shadow);
+}
+
+/* Responsive: enlaces se apilan en móvil */
+@media (max-width: 640px) {
+  .toc-menu ol {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+
+/* ----- Footer ----- */
+footer {
+  margin-top: 36px;
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--muted);
+}
+
+/* ----- Small text ----- */
+.small {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* ----- Responsive ----- */
+@media(max-width:640px){
+  .header {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .site-title {
+    font-size: 1.3rem;
+  }
+  
+  .nav {
+    flex-wrap: wrap;
+  }
+  
+  .toc-menu {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
