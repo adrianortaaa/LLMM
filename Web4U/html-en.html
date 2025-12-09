@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Web4U — HTML Examples</title>
+  <meta name="description" content="Web4U — HTML Tags, Images and Examples">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo"><img src="Fotos/Logo HTML.png" alt="W4U" style="width:60px;height:60px;border-radius:15px"></div>
+      <div>
+        <div class="site-title">Web4U <span class="small">- HTML, SVG & CSS</span></div>
+        <div class="breadcrumb" aria-label="You are in ...">Home › HTML</div>
+      </div>
+    </header>
+
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <a href="index-en.html" aria-current="page" title="Home">Home</a>
+      <a href="html-en.html" aria-current="page" title="HTML examples and reference">HTML</a>
+      <a href="svg-en.html" aria-current="page" title="SVG examples and reference">SVG</a>
+      <a href="css-en.html" aria-current="page" title="CSS examples and reference">CSS</a>
+    </nav>
+
+    <main class="card" id="main-content">
+      <h1 id="top">HTML — Semantics, Examples, and Useful Tags</h1>
+      <p class="small">Each example contains: Description, code, and images.</p>
+
+      <section class="toc" id="toc">
+        <h4>HTML Content</h4>
+        <ol>
+          <li><a href="#example1" title="Example 1">figure</a></li>
+          <li><a href="#example2" title="Example 2">details</a></li>
+          <li><a href="#example3" title="Example 3">output</a></li>
+          <li><a href="#example4" title="Example 4">picture</a></li>
+          <li><a href="#example5" title="Example 5">time</a></li>
+        </ol>
+      </section>
+
+      <section id="example1" class="card" aria-labelledby="figure-heading">
+        <h3 id="figure-heading">figure</h3>
+        <p class="small">Use <code>&lt;figure&gt;</code> with <code>&lt;figcaption&gt;</code> for images that need a title and semantic grouping.</p>
+        <div class="code" title="Code example for figure">
+<pre>&lt;figure&gt;
+  &lt;img src="Fotos/FigureImagen" alt="Example Image"&gt;
+  &lt;figcaption&gt;Fig.1 - Trulli, Puglia, Italy.&lt;/figcaption&gt;
+&lt;/figure&gt;</pre>
+        </div>
+        <div class="example" title="Rendered result for figure">
+          <figure>
+            <img src="Fotos/FigureImagen.png" alt="Rendered figure example" style="max-width:100%">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+          </figure>
+        </div>
+        <p class="small"><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_figure" title="W3C reference (figure)">W3 Schools: &lt;figure&gt;</a></p>
+        <p class="small"><a href="#top" title="Go to Top">Back to Top ↑</a></p>
+      </section>
+
+      <section id="example2" class="card" aria-labelledby="details-heading">
+        <h3 id="details-heading">details / summary</h3>
+        <p class="small">Native disclosure widget: great for progressive enhancement and optional content.</p>
+        <div class="code" title="Code example for details">
+<pre>&lt;details&gt;
+  &lt;summary&gt;More info&lt;/summary&gt;
+  &lt;p&gt;Hidden content revealed on click.&lt;/p&gt;
+&lt;/details&gt;</pre>
+        </div>
+        <div class="example" title="Rendered result for details">
+          <video src="Fotos/Details.mp4" alt="Rendered details example" style="max-width:100%" controls></video>
+        </div>
+        <p class="small"><a href="https://www.w3schools.com/tags/tag_details.asp" title="W3C: details">W3 Schools: &lt;details&gt;</a></p>
+        <p class="small"><a href="#top" title="Go to Top">Back to Top ↑</a></p>
+      </section>
+
+      <section id="example3" class="card" aria-labelledby="output-heading">
+        <h3 id="output-heading">&lt;output&gt;</h3>
+        <p class="small">Container for the result of a calculation or user action in a form.</p>
+        <div class="code" title="Code example for output">
+<pre>&lt;form oninput="result.value = a.valueAsNumber * 2"&gt;
+  &lt;input type="number" id="a" value="10"&gt;
+  X 2 =
+  &lt;output name="result" for="a"&gt;20&lt;/output&gt;
+&lt;/form&gt;</pre>
+        </div>
+        <div class="example" title="Rendered result for output">
+          <video src="Fotos/Output.mp4" alt="OutputElement" style="max-width: 100%;" controls></video>
+        </div>
+        <p class="small"><a href="https://www.w3schools.com/tags/tag_output.asp" title="W3C: output">W3 Schools: &lt;output&gt;</a></p>
+        <p class="small"><a href="#top" title="Go to Top">Back to Top ↑</a></p>
+      </section>
+
+      <section id="example4" class="card" aria-labelledby="picture-heading">
+        <h3 id="picture-heading">&lt;picture&gt;</h3>
+        <p class="small">Adaptive (responsive) image selection using <code>&lt;source&gt;</code>.</p>
+        <div class="code" title="Code example for picture">
+<pre>&lt;picture&gt;
+  &lt;source media="(min-width:800px)" srcset="image-large.jpg"&gt;
+  &lt;img src="image-small.jpg" alt="Responsive image"&gt;
+&lt;/picture&gt;</pre>
+        </div>
+        <div class="example" title="Rendered result for picture">
+          <img src="Fotos/Picture.png" alt="Rendered picture example" style="max-width:100%">
+        </div>
+        <p class="small"><a href="https://www.w3schools.com/tags/tag_picture.asp" title="W3C: source">W3 Schools: &lt;picture&gt;</a></p>
+        <p class="small"><a href="#top" title="Go to Top">Back to Top ↑</a></p>
+      </section>
+
+      <section id="example5" class="card" aria-labelledby="time-heading">
+        <h3 id="time-heading">&lt;time&gt;</h3>
+        <p class="small">Machine-readable dates/times: useful for semantics and indexing.</p>
+        <div class="code" title="Code example for time">
+<pre>&lt;time datetime="2008-02-14"&gt;Nov 21, 2025&lt;/time&gt;</pre>
+        </div>
+        <div class="example" title="Rendered result for time">
+          <img src="Fotos/time.png" alt="Rendered time example" style="max-width:100%">
+        </div>
+        <p class="small"><a href="https://www.w3schools.com/tags/tag_time.asp" title="W3C: time">W3 Schools: &lt;time&gt;</a></p>
+        <p class="small"><a href="#top" title="Go to Top">Back to Top ↑</a></p>
+      </section>
+
+      <aside class="small" style="margin-top:12px">s
+        <a href="pdfs" title="Download this page as PDF">Download this sheet as PDF</a>
+      </aside>
+    </main>
+
+    <footer class="small">Web4U — bilingual (EN / ES). Use the About page for publishing instructions.</footer>
+  </div>
+</body>
+</html>
