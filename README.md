@@ -42,7 +42,16 @@ Este repositorio incluye actividades llevadas a cabo en el m√≥dulo **nombredelm√
 | ----- | --------- | ------ |
 | 2     |      1    | [Texto del Enlace](Ejercicio1/Ejercicio1.html)  |
 | 2     |      2    | [Texto del Enlace](Ejercicio2/Ejercicio2.html)  |
-| 2     |      3    | [Texto del Enlace](Ejercicio1.html)  |
-| 2     |      4    | [Texto del Enlace](Ejercicio1.html)  |
-| 2     |      5    | [Texto del Enlace](Ejercicio1.html)  |
+| 2     |      3    | [Texto del Enlace](Ejercicio3/Ejercicio3.html)  |
+| 2     |      4    | [Texto del Enlace](Ejercicio4/Ejercicio4.html)  |
+| 2     |      5    | [Texto del Enlace](Ejercicio5/Ejercicio5.html)  |
+| 2     |      6    | [Texto del Enlace](Ejercicio6/Ejercicio6.html)  |
+| 2     |      7    | [Texto del Enlace](Ejercicio7/Ejercicio7.html)  |
+| 2     |      8    | [Texto del Enlace](Ejercicio8/Ejercicio8.html)  |
+| 2     |      9    | [Texto del Enlace](Ejercicio9/Ejercicio9.html)  |
+| 2     |      10    | [Texto del Enlace](Ejercicio10/Ejercicio10.html)  |
+| 2     |      11   | [Texto del Enlace](Ejercicio11/Ejercicio11.html)  |
+| 2     |      12    | [Texto del Enlace](Ejercicio12/Ejercicio12.html)  |
+
+
 
