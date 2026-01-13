@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 5 - Básico</title>
+<style>
+  #texto {
+    font-size: 20px;
+  }
+  .font1 { font-family: Arial, sans-serif; }
+  .font2 { font-family: 'Courier New', monospace; }
+  .font3 { font-family: 'Times New Roman', serif; }
+
+  #msgBox {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 300px;
+  }
+</style>
+</head>
+<body>
+
+<h2>Cambiar estilo de párrafo</h2>
+<p id="texto" class="font1">Este es un texto de prueba.</p>
+<button onclick="cambiarFuente('font1')">Arial</button>
+<button onclick="cambiarFuente('font2')">Courier</button>
+<button onclick="cambiarFuente('font3')">Times</button>
+
+<h2>Cambiar imagen</h2>
+<img id="imagen" src="Foto1.png" width="300"><br>
+<button onclick="cambiarImagen('Foto1.png')">Imagen 1</button>
+<button onclick="cambiarImagen('Foto2.png')">Imagen 2</button>
+<button onclick="cambiarImagen('Foto3.png')">Imagen 3</button>
+
+<h2>Mostrar mensajes</h2>
+<div id="msgBox">Mensaje inicial...</div>
+<button onclick="mostrarMsg('Hola! Este es el mensaje 1')">Mensaje 1</button>
+<button onclick="mostrarMsg('Este es el mensaje 2')">Mensaje 2</button>
+<button onclick="mostrarMsg('Mostrando mensaje número 3')">Mensaje 3</button>
+
+<script src="js05.js"></script>
+</body>
+</html>
