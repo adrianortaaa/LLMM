@@ -73,19 +73,4 @@
 
 ---
 
-## 🏷️ **Extras visuales**
-
-Puedes añadir badges como:
-
-![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-blue)
-![Licencia](https://img.shields.io/badge/Licencia-MIT-green)
-![HTML](https://img.shields.io/badge/HTML-OK-orange)
-![Ejercicios-41](https://img.shields.io/badge/Ejercicios-41-lightgrey)
-
----
-
-## 📄 **Licencia**
-
-Publicado bajo la licencia **MIT**
-
 
