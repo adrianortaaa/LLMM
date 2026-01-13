@@ -1,57 +1,91 @@
-# LLMM
+# 📁 Actividades del módulo **Lenguaje de Marcas y Sistemas de Gestión de Información **
 
-Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguaje de Marcas y Sistemas de Gestión de información**.
+> Este repositorio recopila las actividades realizadas a lo largo del módulo.
 
 ---
 
-| TEMA  | Ejercicio | Enlace | 
-| ----- | --------- | ------ |
-| 1     |      1    | [Texto del Enlace](Ejercicio1.html)  |
-| 1     |      2    | [Texto del Enlace](Ejercicio2.html)  |
-| 1     |      3    | [Texto del Enlace](Ejercicio3.html)  |
-| 1     |      4    | [Texto del Enlace](Ejercicio4.html)  |
-| 1     |      5    | [Texto del Enlace](Ejercicio5.html)  |
-| 1     |      6    | [Texto del Enlace](Ejercicio6.html)  |
-| 1     |      7    | [Texto del Enlace](Ejercicio7.html)  |
-| 1     |      8    | [Texto del Enlace](Ejercicio8.html)  |
-| 1     |      9    | [Texto del Enlace](Ejercicio9/index.html)|
-| 1     |      10   | [Texto del Enlace](Ejercicio10.html) |
-| 1     |      11   | [Texto del Enlace](Ejercicio11.html) |
-| 1     |      12   | [Texto del Enlace](Ejercicio12.html) |
-| 1     |      13   | [Texto del Enlace](Ejercicio13.html) |
-| 1     |      14   | [Texto del Enlace](Ejercicio14.html) |
-| 1     |      15   | [Texto del Enlace](Ejercicio15.html) |
-| 1     |      16   | [Texto del Enlace](Ejercicio16.html) |
-| 1     |      17   | [Texto del Enlace](Ejercicio17/Ejercicio17.html)|
-| 1     |      18   | [Texto del Enlace](Ejercicio18/Ejercicio18.html)|
-| 1     |      19   | [Texto del Enlace](Ejercicio19/Ejercicio19.html)|
-| 1     |      20   | [Texto del Enlace](Ejercicio20/Ejercicio20.html)|
-| 1     |      21   | [Texto del Enlace](Ejercicio21/Ejercicio21.html)|
-| 1     |      22   | [Texto del Enlace](Ejercicio22/Ejercicio22.html)|
-| 1     |      23   | [Texto del Enlace](Ejercicio23.html) |
-| 1     |      24   | [Texto del Enlace](Ejercicio24.html) |
-| 1     |      25   | [Texto del Enlace](Ejercicio25.html) |
-| 1     |      26  | [Texto del Enlace](Ejercicio26/Ejercicio26.html)|
-| 1     |      27  | [Texto del Enlace](Ejercicio27/Ejercicio27.html)|
-| 1     |      28  | [Texto del Enlace](Ejercicio28/Ejercicio28.html)|
-| 1     |      29  | [Texto del Enlace](Ejercicio29/Ejercicio29.html)|
-| 1     |   Web4U  | [Texto del Enlace](Web4U/index-esp.html)|
+## 📘 **Tema 1**
 
+🗂 **Total ejercicios:** 29  
+🌐 **Proyecto extra:** Web4U
 
-| TEMA  | Ejercicio | Enlace | 
-| ----- | --------- | ------ |
-| 2     |      1    | [Texto del Enlace](Ejercicio1/Ejercicio1.html)  |
-| 2     |      2    | [Texto del Enlace](Ejercicio2/Ejercicio2.html)  |
-| 2     |      3    | [Texto del Enlace](Ejercicio3/Ejercicio3.html)  |
-| 2     |      4    | [Texto del Enlace](Ejercicio4/Ejercicio4.html)  |
-| 2     |      5    | [Texto del Enlace](Ejercicio5/Ejercicio5.html)  |
-| 2     |      6    | [Texto del Enlace](Ejercicio6/Ejercicio6.html)  |
-| 2     |      7    | [Texto del Enlace](Ejercicio7/Ejercicio7.html)  |
-| 2     |      8    | [Texto del Enlace](Ejercicio8/Ejercicio8.html)  |
-| 2     |      9    | [Texto del Enlace](Ejercicio9/Ejercicio9.html)  |
-| 2     |      10    | [Texto del Enlace](Ejercicio10/Ejercicio10.html)  |
-| 2     |      11   | [Texto del Enlace](Ejercicio11/Ejercicio11.html)  |
-| 2     |      12    | [Texto del Enlace](Ejercicio12/Ejercicio12.html)  |
+---
 
+### 📋 **Listado de ejercicios**
+
+| Nº | Enlace |
+|---|---|
+| 1 | [Ejercicio 1](Ejercicio1.html) |
+| 2 | [Ejercicio 2](Ejercicio2.html) |
+| 3 | [Ejercicio 3](Ejercicio3.html) |
+| 4 | [Ejercicio 4](Ejercicio4.html) |
+| 5 | [Ejercicio 5](Ejercicio5.html) |
+| 6 | [Ejercicio 6](Ejercicio6.html) |
+| 7 | [Ejercicio 7](Ejercicio7.html) |
+| 8 | [Ejercicio 8](Ejercicio8.html) |
+| 9 | [Ejercicio 9](Ejercicio9/index.html) |
+| 10 | [Ejercicio 10](Ejercicio10.html) |
+| 11 | [Ejercicio 11](Ejercicio11.html) |
+| 12 | [Ejercicio 12](Ejercicio12.html) |
+| 13 | [Ejercicio 13](Ejercicio13.html) |
+| 14 | [Ejercicio 14](Ejercicio14.html) |
+| 15 | [Ejercicio 15](Ejercicio15.html) |
+| 16 | [Ejercicio 16](Ejercicio16.html) |
+| 17 | [Ejercicio 17](Ejercicio17/Ejercicio17.html) |
+| 18 | [Ejercicio 18](Ejercicio18/Ejercicio18.html) |
+| 19 | [Ejercicio 19](Ejercicio19/Ejercicio19.html) |
+| 20 | [Ejercicio 20](Ejercicio20/Ejercicio20.html) |
+| 21 | [Ejercicio 21](Ejercicio21/Ejercicio21.html) |
+| 22 | [Ejercicio 22](Ejercicio22/Ejercicio22.html) |
+| 23 | [Ejercicio 23](Ejercicio23.html) |
+| 24 | [Ejercicio 24](Ejercicio24.html) |
+| 25 | [Ejercicio 25](Ejercicio25.html) |
+| 26 | [Ejercicio 26](Ejercicio26/Ejercicio26.html) |
+| 27 | [Ejercicio 27](Ejercicio27/Ejercicio27.html) |
+| 28 | [Ejercicio 28](Ejercicio28/Ejercicio28.html) |
+| 29 | [Ejercicio 29](Ejercicio29/Ejercicio29.html) |
+| 🎨 Web4U | [Ver proyecto](Web4U/index-esp.html) |
+
+---
+
+## 📗 **Tema 2**
+
+🗂 **Total ejercicios:** 12
+
+---
+
+### 📋 **Listado de ejercicios**
+
+| Nº | Enlace |
+|---|---|
+| 1 | [Ejercicio 1](Ejercicio1/Ejercicio1.html) |
+| 2 | [Ejercicio 2](Ejercicio2/Ejercicio2.html) |
+| 3 | [Ejercicio 3](Ejercicio3/Ejercicio3.html) |
+| 4 | [Ejercicio 4](Ejercicio4/Ejercicio4.html) |
+| 5 | [Ejercicio 5](Ejercicio5/Ejercicio5.html) |
+| 6 | [Ejercicio 6](Ejercicio6/Ejercicio6.html) |
+| 7 | [Ejercicio 7](Ejercicio7/Ejercicio7.html) |
+| 8 | [Ejercicio 8](Ejercicio8/Ejercicio8.html) |
+| 9 | [Ejercicio 9](Ejercicio9/Ejercicio9.html) |
+| 10 | [Ejercicio 10](Ejercicio10/Ejercicio10.html) |
+| 11 | [Ejercicio 11](Ejercicio11/Ejercicio11.html) |
+| 12 | [Ejercicio 12](Ejercicio12/Ejercicio12.html) |
+
+---
+
+## 🏷️ **Extras visuales**
+
+Puedes añadir badges como:
+
+![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-blue)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-green)
+![HTML](https://img.shields.io/badge/HTML-OK-orange)
+![Ejercicios-41](https://img.shields.io/badge/Ejercicios-41-lightgrey)
+
+---
+
+## 📄 **Licencia**
+
+Publicado bajo la licencia **MIT**
 
 
