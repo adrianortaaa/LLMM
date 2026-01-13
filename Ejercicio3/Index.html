@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link id="tema" rel="stylesheet" href="estilo1.css">
+    <script src="js03.js"></script>
+</head>
+<body>
+
+<h1>Galería de Imágenes</h1>
+
+<hr>
+
+<!-- Sección de Coches -->
+<section>
+    <h2>Imágenes de Coches</h2>
+
+    <img id="imgCoche" src="coche1.jpg" class="imagen">
+
+    <br><br>
+
+    <select onchange="cambiarCoche(this.value)">
+        <option value="coche1.jpg">Coche 1</option>
+        <option value="coche2.jpg">Coche 2</option>
+        <option value="coche3.jpg">Coche 3</option>
+        <option value="coche4.jpg">Coche 4</option>
+        <option value="coche5.jpg">Coche 5</option>
+        <option value="coche6.jpg">Coche 6</option>
+    </select>
+</section>
+
+<hr>
+
+<!-- Sección de Spiderman -->
+<section>
+    <h2>Imágenes de Spiderman</h2>
+
+    <img id="imgSpider" src="spiderman1.gif" class="imagen">
+
+    <br><br>
+
+    <select onchange="cambiarSpider(this.value)">
+        <option value="spiderman1.gif">Imagen 1</option>
+        <option value="spiderman2.jpg">Imagen 2</option>
+        <option value="spiderman3.jpg">Imagen 3</option>
+        <option value="spiderman4.jpg">Imagen 4</option>
+        <option value="spiderman5.jpg">Imagen 5</option>
+
+
+    </select>
+</section>
+
+<hr>
+
+<!-- Cambio de Tema / Estilo -->
+<button onclick="cambiarTema()">Cambiar estilo</button>
+
+</body>
+</html>

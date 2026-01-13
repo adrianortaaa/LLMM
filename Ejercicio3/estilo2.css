@@ -1,0 +1,15 @@
+body {
+    font-family: Georgia;
+    background: #222;
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.imagen {
+    height: 250px;
+    border: 2px solid white;
+}
