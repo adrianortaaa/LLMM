@@ -74,3 +74,25 @@
 ---
 
 
+## 📘 **Tema 3**
+
+🗂 **Total ejercicios JavaScript:** 10
+
+---
+
+### 📋 **Listado de ejercicios**
+
+| Nº | Enlace |
+|---|---|
+| 1 | [Ejercicio 1](Ejercicio1/index.html) |
+| 2 | [Ejercicio 2](Ejercicio2/index.html) |
+| 3 | [Ejercicio 3](Ejercicio3/index.html) |
+| 4 | [Ejercicio 4](Ejercicio4/index.html) |
+| 5 | [Ejercicio 5](Ejercicio5/index.html) |
+| 6 | [Ejercicio 6](Ejercicio6/index.html) |
+| 7 | [Ejercicio 7](Ejercicio7/index.html) |
+| 8 | [Ejercicio 8](Ejercicio8/index.html) |
+| 9 | [Ejercicio 9](Ejercicio9/index.html) |
+| 10 | [Ejercicio 10](Ejercicio10/index.html) |
+| 11 | [Ejercicio 11](Ejercicio11/index.html) |
+| 12 | [Ejercicio 12](Ejercicio12/index.html) |
