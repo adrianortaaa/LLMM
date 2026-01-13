@@ -86,7 +86,7 @@
 |---|---|
 | 1 | [Ejercicio 1](Ejercicio1/index.html) |
 | 2 | [Ejercicio 2](Ejercicio2/index.html) |
-| 3 | [Ejercicio 3](Ejercicio3/index.html) |
+| 3 | [Ejercicio 3](Ejercicio3/Index.html) |
 | 4 | [Ejercicio 4](Ejercicio4/index.html) |
 | 5 | [Ejercicio 5](Ejercicio5/index.html) |
 | 6 | [Ejercicio 6](Ejercicio6/index.html) |
