@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #ab9790;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background: #d2c7c3;
+  padding: 40px;
+  width: 450px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background: #5c9c8a;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.quote-box {
+  margin-top: 20px;
+  text-align: left;
+  color: #4e5961;
+}
+
+.quote-box .icon {
+  font-size: 40px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.author {
+  text-align: right;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #5c9c8a;
+}
