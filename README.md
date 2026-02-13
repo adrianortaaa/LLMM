@@ -94,5 +94,3 @@
 | 8 | [Ejercicio 8](Ejercicio8/index.html) |
 | 9 | [Ejercicio 9](Ejercicio9/index.html) |
 | 10 | [Ejercicio 10](Ejercicio10/index.html) |
-| 11 | [Ejercicio 11](Ejercicio11/index.html) |
-| 12 | [Ejercicio 12](Ejercicio12/index.html) |
