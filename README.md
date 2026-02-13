@@ -91,7 +91,7 @@
 | 5 | [Ejercicio 5](Ejercicio5/index.html) |
 | 6 | [Ejercicio 6](Ejercicio6/index.html) |
 | 7 | [Ejercicio 7](Ejercicio7/index.html) |
-| 8 | [Ejercicio 8](Ejercicio8/index.html) |
+| 8 | [Ejercicio 8](Ejercicio8/Index.html) |
 | 9 | [Ejercicio 9](Ejercicio9/index.html) |
 | 10 | [Ejercicio 10](Ejercicio10/index.html) |
 
