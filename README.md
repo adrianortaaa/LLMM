@@ -94,3 +94,14 @@
 | 8 | [Ejercicio 8](Ejercicio8/index.html) |
 | 9 | [Ejercicio 9](Ejercicio9/index.html) |
 | 10 | [Ejercicio 10](Ejercicio10/index.html) |
+
+🗂 **Total ejercicios DOM:** 10
+
+---
+
+### 📋 **Listado de ejercicios**
+
+
+
+
+
