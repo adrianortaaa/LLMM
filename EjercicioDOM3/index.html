@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar Imagen con JavaScript</title>
+    <style>
+        #contenedor {
+            width: 300px;
+            height: 300px;
+            border: 2px dashed gray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Imagen agregada dinámicamente</h2>
+
+    <div id="contenedor"></div>
+
+    <button onclick="agregarImagen()">Agregar Imagen</button>
+
+    <script>
+        function agregarImagen() {
+            const div = document.getElementById("contenedor");
+
+            // Crear elemento imagen
+            const img = document.createElement("img");
+
+            // Asignar atributos
+            img.src = "https://picsum.photos/250"; 
+            img.alt = "Imagen generada dinámicamente";
+
+            // Limpiar contenido previo (opcional)
+            div.innerHTML = "";
+
+            // Agregar imagen al div
+            div.appendChild(img);
+        }
+    </script>
+
+</body>
+</html>

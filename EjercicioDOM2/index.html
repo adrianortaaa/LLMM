@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+<body>
+
+<h1>Formulario de Registro</h1>
+
+<form id="miFormulario">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="apellidos">Apellidos:</label><br>
+    <input type="text" id="apellidos" name="apellidos"><br><br>
+
+    <!-- Botón que llama a la función en domScript.js -->
+    <button type="button" onclick="mostrarSaludo()">Enviar</button>
+</form>
+
+<!-- Aquí se mostrará el mensaje -->
+<p id="mensaje"></p>
+
+<!-- Se enlaza el JavaScript externo -->
+<script src="domScript.js"></script>
+
+</body>
+</html>
