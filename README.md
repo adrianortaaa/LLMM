@@ -116,7 +116,8 @@
 
 🗂 **Total ejercicios DOM:** 10
 
-🌐 **Proyecto extra:** Web con Ansible
+🌐 **Proyecto extra:** WebBootstrap
+| 🎨 Web | [Ver proyecto](WebBootstrap/index.html |
 
 
 
