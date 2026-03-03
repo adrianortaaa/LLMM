@@ -95,7 +95,7 @@
 | 9 | [Ejercicio 9](Ejercicio9/index.html) |
 | 10 | [Ejercicio 10](Ejercicio10/index.html) |
 
-🗂 **Total ejercicios DOM:** 10
+🗂 **Total ejercicios JavaScript:** 10
 
 ---
 
@@ -114,6 +114,7 @@
 | 9 | [Ejercicio 1](EjercicioDOM9/index.html) |
 | 10 | [Ejercicio 1](EjercicioDOM10/index.html) |
 
+🗂 **Total ejercicios DOM:** 10
 
 
 
