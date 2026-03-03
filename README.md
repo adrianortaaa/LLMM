@@ -107,7 +107,7 @@
 | 2 | [Ejercicio 2](EjercicioDOM2/index.html) |
 | 3 | [Ejercicio 3](EjercicioDOM3/index.html) |
 | 4 | [Ejercicio 4](EjercicioDOM4/index.html) |
-| 5 | [Ejercicio 5](EjercicioDOM5/index.html) |
+| 5 | [Ejercicio 5](EjercicioDOM5) |
 | 6 | [Ejercicio 6](EjercicioDOM6/index.html) |
 | 7 | [Ejercicio 7](EjercicioDOM7/index.html) |
 | 8 | [Ejercicio 8](EjercicioDOM8/index.html) |
