@@ -152,15 +152,15 @@
 
 | Nº | Enlace |
 |---|---|
-| 1 | [Ejercicio 1](EJERCICIODOM1/index.html) |
-| 2 | [Ejercicio 2](EJERCICIODOM2/index.html) |
-| 3 | [Ejercicio 3](EJERCICIODOM3/index.html) |
-| 4 | [Ejercicio 4](EJERCICIODOM4/index.html) |
-| 6 | [Ejercicio 6](EJERCICIODOM6/index.html) |
-| 7 | [Ejercicio 7](EJERCICIODOM7/index.html) |
-| 8 | [Ejercicio 8](EJERCICIODOM8/index.html) |
-| 9 | [Ejercicio 9](EJERCICIODOM9/index.html) |
-| 10 | [Ejercicio 10](EJERCICIODOM10/index.html) |
+| 1 | [Ejercicio 1](EjercicioDOM1/index.html) |
+| 2 | [Ejercicio 2](EjercicioDOM2/index.html) |
+| 3 | [Ejercicio 3](EjercicioDOM3/index.html) |
+| 4 | [Ejercicio 4](EjercicioDOM4/index.html) |
+| 6 | [Ejercicio 6](EjercicioDOM6/index.html) |
+| 7 | [Ejercicio 7](EjercicioDOM7/index.html) |
+| 8 | [Ejercicio 8](EjercicioDOM8/index.html) |
+| 9 | [Ejercicio 9](EjercicioDOM9/index.html) |
+| 10 | [Ejercicio 10](EjercicioDOM10/index.html) |
 
 
 
