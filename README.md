@@ -120,6 +120,22 @@
 
 🌐 **Proyecto extra:** WebBootstrap
 
+## 📘 **Tema 3**
+
+---
+
+### 📋 **Listado de ejercicios**
+
+| Nº | Enlace |
+|---|---|
+| 1 | [Ejercicio 1](EJERCICIOXML1/Ex1.xml) |
+| 2 | [Ejercicio 2](EJERCICIOXML2/Ex2.xml) |
+| 3 | [Ejercicio 3](EJERCICIOXML3/Ex3.xml) |
+| 4 | [Ejercicio 4](EJERCICIOXML4/Ex4.xml) |
+| 5 | [Ejercicio 5](EJERCICIOXML5/Ex5.xml) |
+| 6 | [Ejercicio 6](EJERCICIOXML6/Ex6.xml) |
+| 7 | [Ejercicio 7](EJERCICIOXML7/Ex7.xml) |
 
 
+🗂 **Total ejercicios XML:** 7
 
