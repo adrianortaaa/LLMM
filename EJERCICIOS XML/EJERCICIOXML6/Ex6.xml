@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Letter>
+    <sender>
+        <name>Simon North</name>
+        <address>north@synopsys.com</address>
+    </sender>
+    <receiver>
+        <name>Nick Sintac</name>
+        <address>sintac@xs4all.nl</address>
+    </receiver>
+    <date>2026-03-15</date>
+    <body>
+        Hi Nick,
+
+        I just wanted to confirm that I received the material you sent. Everything looks great, thank you for your effort.
+
+        Best regards,
+    </body>
+    <signature>Simon North</signature>
+</Letter>
