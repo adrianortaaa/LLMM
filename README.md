@@ -162,7 +162,22 @@
 | 9 | [Ejercicio 9](EjercicioDOM9/index.html) |
 | 10 | [Ejercicio 10](EjercicioDOM10/index.html) |
 
-
-
 🗂 **Total ejercicios DOM:** 10
 
+
+## 📘 **Tema 4**
+
+🗂 **Total ejercicios XML-DOM:** 3  
+
+---
+
+### 📋 **Listado de ejercicios**
+
+| Nº | Enlace |
+|---|---|
+| 1 | [Ejercicio 1](XML-DOM1/XML-DOM1.js) |
+| 2 | [Ejercicio 2](XML-DOM2/XML-DOM2.js) |
+| 3 | [Ejercicio 3](XML-DOM3/XML-DOM3.js) |
+
+
+🗂 **Total ejercicios XML-DOM:** 3
