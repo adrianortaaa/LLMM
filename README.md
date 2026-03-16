@@ -122,6 +122,8 @@
 
 ## 📘 **Tema 3**
 
+🗂 **Total ejercicios XML:** 7  
+
 ---
 
 ### 📋 **Listado de ejercicios**
