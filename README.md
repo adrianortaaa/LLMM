@@ -113,7 +113,7 @@
 | 8 | [Ejercicio 8](EjercicioDOM8/index.html) |
 | 9 | [Ejercicio 9](EjercicioDOM9/index.html) |
 | 10 | [Ejercicio 10](EjercicioDOM10/index.html) |
-| 🎨 Web | [Ver proyecto](BOOTSTRAP/index.html) |
+| 🎨 Web | [Ver proyecto](https://adrianortaaa.github.io/LLMM/BOOTSTRAP/index.html) |
 
 
 🗂 **Total ejercicios DOM:** 10
