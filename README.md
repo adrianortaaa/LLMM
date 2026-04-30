@@ -246,4 +246,11 @@
 | 2 | [Ejercicio 2](DTD-ADICIONAL-2/ALUMNOS.xml) |
 | 3 | [Ejercicio 3](DTD-ADICIONAL-3/PEDIDOS.xml) |
 
+### 📋 **Listado de ejercicios XPATh **
+
+| Nº | Enlace |
+|---|---|
+| 1 | [Ejercicio 1](XPATH-1/SOLUCION1.html) |
+| 2 | [Ejercicio 2](XPATH-2/SOLUCION2.html) |
+| 3 | [Ejercicio 3](XPATH-3/SOLUCION3.html) |
 
