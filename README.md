@@ -182,11 +182,11 @@
 
 🗂 **Total ejercicios XML-DOM:** 3
 
-## 📘 **Tema 5**
+## 📘 **Tema 5 XML DTD - XPATh - RSS **
 
 ---
 
-### 📋 **Listado de ejercicios**
+### 📋 **Listado de ejercicios DTD **
 
 | Nº | Enlace |
 |---|---|
@@ -200,7 +200,7 @@
 | 8 | [Ejercicio 1](DTD-EJERCICIO-1-8/DTD-1-8.xml) |
 | 9 | [Ejercicio 1](DTD-EJERCICIO-1-9/DTD-1-9.xml) |
 
-### 📋 **Listado de ejercicios**
+### 📋 **Listado de ejercicios DTD **
 
 | Nº | Enlace |
 |---|---|
@@ -215,7 +215,7 @@
 | 9 | [Ejercicio 2](DTD-EJERCICIO-2-9/DTD-2-9.xml) |
 
 
-### 📋 **Listado de ejercicios**
+### 📋 **Listado de ejercicios DTD **
 
 | Nº | Enlace |
 |---|---|
@@ -227,7 +227,7 @@
 | 6 | [Ejercicio 3](DTD-EJERCICIO-3-6/DTD-3-6.xml) |
 
 
-### 📋 **Listado de ejercicios**
+### 📋 **Listado de ejercicios DTD **
 
 | Nº | Enlace |
 |---|---|
