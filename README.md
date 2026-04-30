@@ -262,3 +262,14 @@
 | 1 | [Ejercicio 1](XSD-1/MODULOS_xsd.xml) |
 | 2 | [Ejercicio 2](XSD-2/EJERCICIO2.xml) |
 | 3 | [Ejercicio 3](XSD-3/TABLA_PERIODICA.xml) |
+
+
+### 📋 **Listado de ejercicios XSLT **
+
+| Nº | Enlace |
+|---|---|
+| 1 | [Ejercicio 1](XSLT-1/XSLT-1.xml) |
+| 1 | [Ejercicio 2](XSLT-2/XSLT-2.xml) |
+| 1 | [Ejercicio 3](XSLT-3/XSLT-3.xml) |
+| 1 | [Ejercicio 4](XSLT-4/XSLT-4.xml) |
+| 1 | [Ejercicio 5](XSLT-5/XSLT-5.xml) |
