@@ -1,0 +1,24 @@
+<!ELEMENT centro_educativo (alumno*)>
+
+<!ELEMENT alumno (nombre, apellidos, domicilio, telefono+, equipo?, aficion*, (provincia | pais), comentario?, (evaluacion, calificacion)*)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT domicilio (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT equipo (#PCDATA)>
+<!ELEMENT aficion (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT comentario ANY>
+<!ELEMENT evaluacion (#PCDATA)>
+<!ELEMENT calificacion (#PCDATA)>
+
+<!ATTLIST alumno
+    num_alumno ID #REQUIRED
+    altura_cm CDATA #IMPLIED
+    sexo (hombre | mujer) #IMPLIED
+    ayudado_por IDREF #IMPLIED>
+
+<!ATTLIST telefono
+    pertenece (propio | padre | madre | tutor) #REQUIRED>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE centro_educativo SYSTEM "alumnos.dtd">
+<centro_educativo>
+
+  <alumno num_alumno="a101" altura_cm="175" sexo="hombre">
+    <nombre>Marcos</nombre>
+    < apellidos>García Pérez</apellidos>
+    <domicilio>Calle Mayor 15, Madrid</domicilio>
+    <telefono pertenece="propio">600111222</telefono>
+    <telefono pertenece="padre">600333444</telefono>
+    <equipo>Baloncesto</equipo>
+    <aficion>Lectura</aficion>
+    <aficion>Ajedrez</aficion>
+    <provincia>Madrid</provincia>
+    <comentario>Alumno delegado de curso.</comentario>
+    <evaluacion>Primera</evaluacion>
+    <calificacion>8.5</calificacion>
+  </alumno>
+
+  <alumno num_alumno="a102" ayudado_por="a101">
+    <nombre>Lucía</nombre>
+    <apellidos>Silva</apellidos>
+    <domicilio>Av. América 4, Valencia</domicilio>
+    <telefono pertenece="madre">611999888</telefono>
+    <pais>España</pais>
+    <comentario>
+        Es nueva en el centro. Necesita apoyo en <nombre>Inglés</nombre>.
+    </comentario>
+    <evaluacion>Primera</evaluacion>
+    <calificacion>7.0</calificacion>
+    <evaluacion>Segunda</evaluacion>
+    <calificacion>9.0</calificacion>
+  </alumno>
+
+</centro_educativo>

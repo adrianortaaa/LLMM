@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE daw SYSTEM "modulos.dtd">
+<daw>
+  <modulo>
+    <nombre>Lenguajes de marcas y sistemas de gestión de información</nombre>
+    <descripcion>Estudio de XML, HTML5, CSS3</descripcion>
+    <codigo>0373</codigo>
+    <profesor>Ignacio</profesor>
+    <fechas>
+      <inicio>
+        <dia>15</dia>
+        <mes>09</mes>
+        <año>2025</año>
+      </inicio>
+      <fin>
+        <dia>22</dia>
+        <mes>06</mes>
+        <año>2026</año>
+      </fin>
+    </fechas>
+  </modulo>
+
+  <modulo>
+    <nombre>Entornos de Desarrollo</nombre>
+    <descripcion>Depuración de código, presupuestar proyectos, realizar diagrams de flujo</descripcion>
+    <codigo>0612</codigo>
+    <profesor>Juanma</profesor>
+    <fechas>
+      <inicio>
+        <dia>18</dia>
+        <mes>09</mes>
+        <año>2025</año>
+      </inicio>
+      <fin>
+        <dia>15</dia>
+        <mes>03</mes>
+        <año>2026</año>
+      </fin>
+    </fechas>
+  </modulo>
+</daw>
