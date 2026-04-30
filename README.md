@@ -237,3 +237,13 @@
 | 4 | [Ejercicio 4](DTD-EJERCICIO-4-4/DTD-4-4.xml) |
 | 5 | [Ejercicio 4](DTD-EJERCICIO-4-5/DTD-4-5.xml) |
 
+
+### 📋 **Listado de ejercicios DTD ADICIONAL **
+
+| Nº | Enlace |
+|---|---|
+| 1 | [Ejercicio 1](DTD-ADICIONAL-1/MODULOS.xml) |
+| 2 | [Ejercicio 1](DTD-EJERCICIO-2/ALUMNOS.xml) |
+| 3 | [Ejercicio 1](DTD-EJERCICIO-3/PEDIDOS.xml) |
+
+
