@@ -254,3 +254,11 @@
 | 2 | [Ejercicio 2](XPATH-2/SOLUCION2.html) |
 | 3 | [Ejercicio 3](XPATH-3/SOLUCION3.html) |
 
+
+### 📋 **Listado de ejercicios XSD **
+
+| Nº | Enlace |
+|---|---|
+| 1 | [Ejercicio 1](XSD-1/MODULOS_xsd.xml) |
+| 2 | [Ejercicio 2](XSD-2/EJERCICIO2.xml) |
+| 3 | [Ejercicio 3](XSD-3/TABLA_PERIODICA.xml) |
