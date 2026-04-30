@@ -1,0 +1,6 @@
+<!DOCTYPE vuelos [
+  <!ELEMENT vuelos (vuelo*)>
+  <!ELEMENT vuelo (origen | destino)*>
+  <!ELEMENT origen (#PCDATA)>
+  <!ELEMENT destino (#PCDATA)>
+]>

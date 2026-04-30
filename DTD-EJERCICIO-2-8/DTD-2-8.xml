@@ -1,0 +1,9 @@
+<!DOCTYPE contabilidad [
+  <!ELEMENT contabilidad (apunte*)>
+  <!ELEMENT apunte ((ingreso | gasto), fecha, cantidad, concepto)>
+  <!ELEMENT ingreso EMPTY>
+  <!ELEMENT gasto EMPTY>
+  <!ELEMENT fecha (#PCDATA)>
+  <!ELEMENT cantidad (#PCDATA)>
+  <!ELEMENT concepto (#PCDATA)>
+]>

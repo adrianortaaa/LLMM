@@ -1,0 +1,7 @@
+<!DOCTYPE paises [
+  <!ELEMENT paises (pais*)>
+  <!ELEMENT pais (nombre, unionEuropea?, otan?)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT unionEuropea EMPTY>
+  <!ELEMENT otan EMPTY>
+]>

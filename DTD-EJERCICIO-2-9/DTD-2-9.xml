@@ -1,0 +1,9 @@
+<!DOCTYPE mensajes [
+  <!ELEMENT mensajes (mensaje+)>
+  <!ELEMENT mensaje (de, para, hora, texto)>
+  <!ELEMENT de (#PCDATA)>
+  <!ELEMENT para (#PCDATA)>
+  <!ELEMENT hora (#PCDATA)>
+  <!ELEMENT texto (#PCDATA | strong)*>
+  <!ELEMENT strong (#PCDATA)>
+]>
