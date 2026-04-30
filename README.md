@@ -243,7 +243,7 @@
 | Nº | Enlace |
 |---|---|
 | 1 | [Ejercicio 1](DTD-ADICIONAL-1/MODULOS.xml) |
-| 2 | [Ejercicio 1](DTD-EJERCICIO-2/ALUMNOS.xml) |
-| 3 | [Ejercicio 1](DTD-EJERCICIO-3/PEDIDOS.xml) |
+| 2 | [Ejercicio 2](DTD-ADICIONAL-2/ALUMNOS.xml) |
+| 3 | [Ejercicio 3](DTD-ADICIONAL-3/PEDIDOS.xml) |
 
 
