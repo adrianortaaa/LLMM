@@ -181,3 +181,16 @@
 
 
 🗂 **Total ejercicios XML-DOM:** 3
+
+## 📘 **Tema 5**
+
+---
+
+### 📋 **Listado de ejercicios**
+
+| Nº | Enlace |
+|---|---|
+| 1 | [Ejercicio 1](DTD-EJERCICIO-1-1/DTD-1-1.xml) |
+| 2 | [Ejercicio 2](XML-DOM2/XML-DOM2.js) |
+| 3 | [Ejercicio 3](XML-DOM3/XML-DOM3.js) |
+
