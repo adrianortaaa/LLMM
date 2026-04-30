@@ -191,6 +191,49 @@
 | Nº | Enlace |
 |---|---|
 | 1 | [Ejercicio 1](DTD-EJERCICIO-1-1/DTD-1-1.xml) |
-| 2 | [Ejercicio 2](XML-DOM2/XML-DOM2.js) |
-| 3 | [Ejercicio 3](XML-DOM3/XML-DOM3.js) |
+| 2 | [Ejercicio 1](DTD-EJERCICIO-1-2/DTD-1-2.xml) |
+| 3 | [Ejercicio 1](DTD-EJERCICIO-1-3/DTD-1-3.xml) |
+| 4 | [Ejercicio 1](DTD-EJERCICIO-1-4/DTD-1-4.xml) |
+| 5 | [Ejercicio 1](DTD-EJERCICIO-1-5/DTD-1-5.xml) |
+| 6 | [Ejercicio 1](DTD-EJERCICIO-1-6/DTD-1-6.xml) |
+| 7 | [Ejercicio 1](DTD-EJERCICIO-1-7/DTD-1-7.xml) |
+| 8 | [Ejercicio 1](DTD-EJERCICIO-1-8/DTD-1-8.xml) |
+| 9 | [Ejercicio 1](DTD-EJERCICIO-1-9/DTD-1-9.xml) |
+
+### 📋 **Listado de ejercicios**
+
+| Nº | Enlace |
+|---|---|
+| 1 | [Ejercicio 1](DTD-EJERCICIO-2-1/DTD-2-1.xml) |
+| 2 | [Ejercicio 1](DTD-EJERCICIO-2-2/DTD-2-2.xml) |
+| 3 | [Ejercicio 1](DTD-EJERCICIO-2-3/DTD-2-3.xml) |
+| 4 | [Ejercicio 1](DTD-EJERCICIO-2-4/DTD-2-4.xml) |
+| 5 | [Ejercicio 1](DTD-EJERCICIO-2-5/DTD-2-5.xml) |
+| 6 | [Ejercicio 1](DTD-EJERCICIO-2-6/DTD-2-6.xml) |
+| 7 | [Ejercicio 1](DTD-EJERCICIO-2-7/DTD-2-7.xml) |
+| 8 | [Ejercicio 1](DTD-EJERCICIO-2-8/DTD-2-8.xml) |
+| 9 | [Ejercicio 1](DTD-EJERCICIO-2-9/DTD-2-9.xml) |
+
+
+### 📋 **Listado de ejercicios**
+
+| Nº | Enlace |
+|---|---|
+| 1 | [Ejercicio 1](DTD-EJERCICIO-3-1/DTD-3-1.xml) |
+| 2 | [Ejercicio 1](DTD-EJERCICIO-3-2/DTD-3-2.xml) |
+| 3 | [Ejercicio 1](DTD-EJERCICIO-3-3/DTD-3-3.xml) |
+| 4 | [Ejercicio 1](DTD-EJERCICIO-3-4/DTD-3-4.xml) |
+| 5 | [Ejercicio 1](DTD-EJERCICIO-3-5/DTD-3-5.xml) |
+| 6 | [Ejercicio 1](DTD-EJERCICIO-3-6/DTD-3-6.xml) |
+
+
+### 📋 **Listado de ejercicios**
+
+| Nº | Enlace |
+|---|---|
+| 1 | [Ejercicio 1](DTD-EJERCICIO-4-1/DTD-4-1.xml) |
+| 2 | [Ejercicio 1](DTD-EJERCICIO-4-2/DTD-4-2.xml) |
+| 3 | [Ejercicio 1](DTD-EJERCICIO-4-3/DTD-4-3.xml) |
+| 4 | [Ejercicio 1](DTD-EJERCICIO-4-4/DTD-4-4.xml) |
+| 5 | [Ejercicio 1](DTD-EJERCICIO-4-5/DTD-4-5.xml) |
 
