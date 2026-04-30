@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="ejercicio2.xsd">
+  <libro categoria="informatica">
+    <titulo>XML paso a paso</titulo>
+    <autor>Juan Pérez</autor>
+    <fecha_publicacion>2023-05-12</fecha_publicacion>
+    <paginas>250</paginas>
+  </libro>
+  <libro categoria="ficcion">
+    <titulo>El misterio del código</titulo>
+    <autor>Ana García</autor>
+    <fecha_publicacion>2024-02-20</fecha_publicacion>
+    <paginas>400</paginas>
+  </libro>
+</biblioteca>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daw xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+     xsi:noNamespaceSchemaLocation="modulos.xsd">
+  <modulo>
+    <nombre>Lenguajes de marcas y sistemas de gestión de información</nombre>
+    <descripcion>Estudio de XML, HTML5, CSS3 y XSD.</descripcion>
+    <codigo>0373</codigo>
+    <profesor>Ignacio</profesor>
+    <fechas>
+      <inicio>
+        <dia>15</dia>
+        <mes>9</mes>
+        <año>2025</año>
+      </inicio>
+      <fin>
+        <dia>22</dia>
+        <mes>6</mes>
+        <año>2026</año>
+      </fin>
+    </fechas>
+  </modulo>
+</daw>

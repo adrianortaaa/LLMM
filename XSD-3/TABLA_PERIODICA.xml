@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabla_periodica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="tabla_periodica.xsd">
+
+  <atomo estado="gaseoso">
+    <nombre>Hidrogeno</nombre>
+    <simbolo>H</simbolo>
+    <numero_atomico>1</numero_atomico>
+    <peso_atomico>1.00794</peso_atomico>
+    <punto_ebullicion unidades="kelvin">20.28</punto_ebullicion>
+    <densidad unidades="gramos/centimetros cubicos">0.0899</densidad>
+  </atomo>
+
+  <atomo estado="gaseoso">
+    <nombre>Helio</nombre>
+    <simbolo>He</simbolo>
+    <numero_atomico>2</numero_atomico>
+    <peso_atomico>4.0026</peso_atomico>
+    <punto_ebullicion unidades="kelvin">4.216</punto_ebullicion>
+    <densidad unidades="gramos/centimetros cubicos">0.1785</densidad>
+  </atomo>
+
+</tabla_periodica>
