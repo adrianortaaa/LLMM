@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meteo Cartaya — Meteorología del Suroeste Peninsular</title>
+  <meta name="description" content="Divulgación meteorológica y previsiones para Huelva, Sevilla, Cádiz, Badajoz y Algarve. Datos en tiempo real de AEMET." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+  <script src="https://unpkg.com/d3-composite-projections@1.3.0/d3-composite-projections.js"></script>
+</head>
+<body>
+
+<!-- ── NAVBAR ───────────────────────────────────────────────── -->
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="#" class="logo">
+      <div class="logo-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+          <path d="M22 10a3 3 0 0 0-3-3h-2.207a5.502 5.502 0 0 0-10.702.5"/>
+        </svg>
+      </div>
+      <div>
+        <span class="logo-name">Meteo Cartaya</span>
+        <span class="logo-sub">Suroeste Peninsular</span>
+      </div>
+    </a>
+    <nav class="nav-links">
+      <a href="#previsión">Previsión</a>
+      <a href="#mapa">Mapa en vivo</a>
+      <a href="#registros">Registros</a>
+      <a href="#sobre">Sobre mí</a>
+    </nav>
+    <div class="nav-live">
+      <span class="live-dot"></span>
+      <span id="nav-update">Cargando AEMET…</span>
+    </div>
+  </div>
+</header>
+
+<!-- ── HERO ─────────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="hero-kicker">Cartaya, Huelva · Suroeste peninsular</p>
+      <h1 class="hero-title">Meteorología<br /><em>rigurosa</em> y cercana</h1>
+      <p class="hero-desc">Divulgación meteorológica, previsiones y análisis climatológicos para Huelva, Sevilla, Cádiz, Badajoz y Algarve — con datos en tiempo real de AEMET.</p>
+      <div class="hero-tags">
+        <span class="tag">✍️ Divulgación</span>
+        <span class="tag">📡 AEMET en vivo</span>
+        <span class="tag">🎓 Geografía · Univ. Sevilla</span>
+      </div>
+    </div>
+    <div class="hero-card" id="hero-weather">
+      <div class="hw-loading">Cargando datos AEMET…</div>
+    </div>
+  </div>
+  <div class="hero-wave">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,40 C360,80 1080,0 1440,40 L1440,60 L0,60 Z" fill="var(--bg)"/></svg>
+  </div>
+</section>
+
+<!-- ── FORECAST STRIP ────────────────────────────────────────── -->
+<section class="section" id="previsión">
+  <div class="container">
+    <div class="section-head">
+      <h2>Previsión 7 días · Cartaya</h2>
+      <span class="section-badge" id="forecast-stamp">—</span>
+    </div>
+    <div class="forecast-grid" id="forecast-grid">
+      <div class="forecast-skeleton"></div>
+      <div class="forecast-skeleton"></div>
+      <div class="forecast-skeleton"></div>
+      <div class="forecast-skeleton"></div>
+      <div class="forecast-skeleton"></div>
+      <div class="forecast-skeleton"></div>
+      <div class="forecast-skeleton"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── MAPA EN VIVO ──────────────────────────────────────────── -->
+<section class="section section-dark" id="mapa">
+  <div class="container">
+    <div class="section-head">
+      <h2>Mapa del tiempo en vivo</h2>
+      <span class="section-badge" id="map-stamp">Datos AEMET</span>
+    </div>
+    <div class="map-controls">
+      <button class="map-tab active" data-mode="temp">Temperatura</button>
+      <button class="map-tab" data-mode="rain">Lluvia</button>
+      <button class="map-tab" data-mode="wind">Viento</button>
+    </div>
+    <div class="map-wrap">
+      <svg id="map-svg" viewBox="0 0 900 520" aria-label="Mapa del tiempo en España"></svg>
+      <div class="map-tooltip" id="map-tooltip"></div>
+      <div class="map-loading" id="map-loading">
+        <div class="spinner"></div>
+        <span>Descargando observaciones AEMET…</span>
+      </div>
+    </div>
+    <div class="map-legend" id="map-legend"></div>
+    <div class="alerts-section">
+      <h3 class="alerts-title">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        Avisos activos AEMET
+      </h3>
+      <div class="alerts-grid" id="alerts-grid">
+        <div class="alert-skeleton"></div>
+        <div class="alert-skeleton"></div>
+        <div class="alert-skeleton"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── REGISTROS ─────────────────────────────────────────────── -->
+<section class="section" id="registros">
+  <div class="container">
+    <div class="section-head">
+      <h2>Registros del mes · Cartaya</h2>
+      <span class="section-badge" id="records-stamp">—</span>
+    </div>
+    <div class="records-grid" id="records-grid">
+      <div class="record-card">
+        <div class="rec-icon">🌡</div>
+        <div class="rec-label">Temp. máxima</div>
+        <div class="rec-value" id="rec-tmax">—</div>
+      </div>
+      <div class="record-card">
+        <div class="rec-icon">🥶</div>
+        <div class="rec-label">Temp. mínima</div>
+        <div class="rec-value" id="rec-tmin">—</div>
+      </div>
+      <div class="record-card">
+        <div class="rec-icon">💧</div>
+        <div class="rec-label">Precipitación</div>
+        <div class="rec-value" id="rec-prec">—</div>
+      </div>
+      <div class="record-card">
+        <div class="rec-icon">💨</div>
+        <div class="rec-label">Racha máx.</div>
+        <div class="rec-value" id="rec-vmax">—</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SOBRE MÍ ───────────────────────────────────────────────── -->
+<section class="section section-dark" id="sobre">
+  <div class="container">
+    <div class="about-wrap">
+      <div class="about-avatar">MC</div>
+      <div class="about-text">
+        <h2>Meteo Cartaya</h2>
+        <p class="about-role">Divulgación meteorológica · Estudiante de Geografía y GT · Universidad de Sevilla</p>
+        <p class="about-bio">Información meteorológica y climatológica para el suroeste peninsular: Huelva, Sevilla, Cádiz, Badajoz y Algarve (Portugal). Previsiones, análisis de borrascas, registros históricos y divulgación científica. Datos en tiempo real directamente de AEMET.</p>
+        <div class="about-stats">
+          <div class="stat"><span class="stat-n">6.380</span><span class="stat-l">Seguidores Instagram</span></div>
+          <div class="stat"><span class="stat-n">695</span><span class="stat-l">Publicaciones</span></div>
+          <div class="stat"><span class="stat-n">5</span><span class="stat-l">Provincias cubiertas</span></div>
+        </div>
+        <div class="about-links">
+          <a href="https://www.instagram.com/meteocartaya/" target="_blank" class="social-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            Instagram
+          </a>
+          <a href="https://x.com/meteo_cartaya" target="_blank" class="social-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.734-8.835L1.254 2.25H8.08l4.259 5.63 5.905-5.63Zm-1.161 17.52h1.833L7.084 4.126H5.117Z"/></svg>
+            X / Twitter
+          </a>
+          <a href="mailto:meteocartaya@gmail.com" class="social-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Contacto
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ────────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2025 Meteo Cartaya · Cartaya, Huelva · Datos meteorológicos: <a href="https://opendata.aemet.es" target="_blank">AEMET OpenData</a></p>
+    <p class="footer-sub">Datos actualizados automáticamente cada 30 minutos.</p>
+  </div>
+</footer>
+
+<script src="aemet.js"></script>
+<script src="map.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
