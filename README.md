@@ -39,12 +39,3 @@
 * [Ejercicio 4-4 (XML)](./DTD/DTD-EJERCICIO-4-4/DTD-4-4.xml)
 * [Ejercicio 4-5 (XML)](./DTD/DTD-EJERCICIO-4-5/DTD-4-5.xml)
 
-### 📂 DTD Adicionales
-* [Adicional 1 (XML)](./DTD%20ADICIONAL/DTD-ADICIONAL-1/MODULOS.xml)
-* [Adicional 2 (XML)](./DTD%20ADICIONAL/DTD-ADICIONAL-2/MODULOS.xml)
-* [Adicional 3 (XML)](./DTD%20ADICIONAL/DTD-ADICIONAL-3/MODULOS.xml)
-
-### 📂 XPATH
-* [Solución XPATH 1 (HTML)](./XPATH/XPATH-1/SOLUCION1.html)
-* [Solución XPATH 2 (HTML)](./XPATH/XPATH-2/SOLUCION2.html)
-* [Solución XPATH 3 (HTML)](./XPATH/XPATH-3/SOLUCION3.html)
