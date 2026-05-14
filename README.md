@@ -53,10 +53,8 @@ Haz clic en el nombre de cada ejercicio para ver el código directamente:
 
 ### 📂 XSD
 * [XSD 1 (Esquema)](./XSD-1/MODULOS.xsd) | [XSD 1 (XML)](./XSD-1/MODULOS_xsd.xml)
-* [XSD 2 (Esquema)](./XSD-2/EJERCICIO2.xsd) | [XSD 2 (XML)](./XSD-2/EJERCICIO2_xsd.xml)
-* [XSD 3 (Esquema)](./XSD-3/TABLA_PERIODICA.xsd) | [XSD 3 (XML)](./XSD-3/TABLA_PERIODICA_xsd.xml)
-
-
+* [XSD 2 (Esquema)](./XSD-2/EJERCICIO2.xsd) | [XSD 2 (XML)](./XSD-2/EJERCICIO2.xml)
+* [XSD 3 (Esquema)](./XSD-3/TABLA_PERIODICA.xsd) | [XSD 3 (XML)](./XSD-3/TABLA_PERIODICA.xml)
 
 
 
