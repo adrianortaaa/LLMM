@@ -42,8 +42,8 @@ Haz clic en el nombre de cada ejercicio para ver el código directamente:
 
 ### 📂 Adicionales
 * [DTD-ADICIONAL-1](./DTD-ADICIONAL-1/MODULOS.xml)
-* [DTD-ADICIONAL-2](./DTD-ADICIONAL-2/MODULOS.xml)
-* [DTD-ADICIONAL-3](./DTD-ADICIONAL-3/MODULOS.xml)
+* [DTD-ADICIONAL-2](./DTD-ADICIONAL-2/ALUMNOS.xml)
+* [DTD-ADICIONAL-3](./DTD-ADICIONAL-3/PEDIDOS.xml)
 
 ### 📂 XPATH
 * [XPATH-1](./XPATH-1/SOLUCION1.html)
