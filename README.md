@@ -1,8 +1,8 @@
-# 📚 Ejercicios de Lenguajes de Marcas (DTD)
+# 📚 Ejercicios de Lenguajes de Marcas
 
 Índice de ejercicios resueltos:
 
-### 📂 Bloque 1
+### 📂 DTD - Bloque 1
 * [DTD-EJERCICIO-1-1](./DTD-EJERCICIO-1-1)
 * [DTD-EJERCICIO-1-2](./DTD-EJERCICIO-1-2)
 * [DTD-EJERCICIO-1-3](./DTD-EJERCICIO-1-3)
@@ -13,7 +13,7 @@
 * [DTD-EJERCICIO-1-8](./DTD-EJERCICIO-1-8)
 * [DTD-EJERCICIO-1-9](./DTD-EJERCICIO-1-9)
 
-### 📂 Bloque 2
+### 📂 DTD - Bloque 2
 * [DTD-EJERCICIO-2-1](./DTD-EJERCICIO-2-1)
 * [DTD-EJERCICIO-2-2](./DTD-EJERCICIO-2-2)
 * [DTD-EJERCICIO-2-3](./DTD-EJERCICIO-2-3)
@@ -24,7 +24,7 @@
 * [DTD-EJERCICIO-2-8](./DTD-EJERCICIO-2-8)
 * [DTD-EJERCICIO-2-9](./DTD-EJERCICIO-2-9)
 
-### 📂 Bloque 3
+### 📂 DTD - Bloque 3
 * [DTD-EJERCICIO-3-1](./DTD-EJERCICIO-3-1)
 * [DTD-EJERCICIO-3-2](./DTD-EJERCICIO-3-2)
 * [DTD-EJERCICIO-3-3](./DTD-EJERCICIO-3-3)
@@ -32,14 +32,19 @@
 * [DTD-EJERCICIO-3-5](./DTD-EJERCICIO-3-5)
 * [DTD-EJERCICIO-3-6](./DTD-EJERCICIO-3-6)
 
-### 📂 Bloque 4
+### 📂 DTD - Bloque 4
 * [DTD-EJERCICIO-4-1](./DTD-EJERCICIO-4-1)
 * [DTD-EJERCICIO-4-2](./DTD-EJERCICIO-4-2)
 * [DTD-EJERCICIO-4-3](./DTD-EJERCICIO-4-3)
 * [DTD-EJERCICIO-4-4](./DTD-EJERCICIO-4-4)
 * [DTD-EJERCICIO-4-5](./DTD-EJERCICIO-4-5)
 
-### 📂 Ejercicios Adicionales
+### 📂 DTD - Adicionales
 * [DTD-ADICIONAL-1](./DTD-ADICIONAL-1)
 * [DTD-ADICIONAL-2](./DTD-ADICIONAL-2)
 * [DTD-ADICIONAL-3](./DTD-ADICIONAL-3)
+
+### 📂 XPATH
+* [XPATH-1](./SOLUCION1.html)
+* [XPATH-2](./SOLUCION2.html)
+* [XPATH-3](./SOLUCION3.html)
