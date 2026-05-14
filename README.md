@@ -65,7 +65,7 @@ Haz clic en el nombre de cada ejercicio para ver el código directamente:
 
 
 # 🏆 ProyectoXML
-> **🌐 Puedes probar el proyecto aquí:** [Ver Demo en Vivo](https://adrianortaaa.github.io/LLMM/ProyectoXML/index.html)
+> **🌐 Puedes probar el proyecto aquí:** [Probar](https://adrianortaaa.github.io/LLMM/ProyectoXML/index.html)
 
 
 
