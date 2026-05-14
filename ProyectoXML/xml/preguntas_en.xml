@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+  <!ELEMENT test (question+)>
+  <!ELEMENT question (wording,choices)>
+  <!ELEMENT wording (#PCDATA)>
+  <!ELEMENT choices (choice+)>
+  <!ELEMENT choice (#PCDATA)>
+  <!ATTLIST question id CDATA #REQUIRED>
+  <!ATTLIST choice correct (yes|no) 'no'>
+]>
+<test>
+  <question id="1">
+    <wording>How many players does a football team have on the pitch?</wording>
+    <choices>
+      <choice correct="yes">11</choice>
+      <choice>10</choice>
+      <choice>12</choice>
+      <choice>7</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>In which city were the 2024 Olympic Games held?</wording>
+    <choices>
+      <choice correct="yes">Paris</choice>
+      <choice>London</choice>
+      <choice>Madrid</choice>
+      <choice>Tokyo</choice>
+    </choices>
+  </question>
+  <question id="3">
+    <wording>Who is known as 'His Airness' in basketball?</wording>
+    <choices>
+      <choice correct="yes">Michael Jordan</choice>
+      <choice>LeBron James</choice>
+      <choice>Kobe Bryant</choice>
+      <choice>Stephen Curry</choice>
+    </choices>
+  </question>
+  <question id="4">
+    <wording>What is the duration of an NBA basketball game?</wording>
+    <choices>
+      <choice correct="yes">48 minutes</choice>
+      <choice>40 minutes</choice>
+      <choice>60 minutes</choice>
+      <choice>90 minutes</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>Which tennis player has won the Roland Garros tournament the most times?</wording>
+    <choices>
+      <choice correct="yes">Rafael Nadal</choice>
+      <choice>Roger Federer</choice>
+      <choice>Novak Djokovic</choice>
+      <choice>Carlos Alcaraz</choice>
+    </choices>
+  </question>
+  <question id="6">
+    <wording>In which sport is the term 'Home Run' used?</wording>
+    <choices>
+      <choice correct="yes">Baseball</choice>
+      <choice>Golf</choice>
+      <choice>Tennis</choice>
+      <choice>Cricket</choice>
+    </choices>
+  </question>
+  <question id="7">
+    <wording>How many halves are in a futsal (indoor soccer) match?</wording>
+    <choices>
+      <choice correct="yes">2 halves of 20 min</choice>
+      <choice>2 halves of 45 min</choice>
+      <choice>4 periods of 10 min</choice>
+      <choice>3 periods of 15 min</choice>
+    </choices>
+  </question>
+  <question id="8">
+    <wording>Which country won the 2022 FIFA World Cup?</wording>
+    <choices>
+      <choice correct="yes">Argentina</choice>
+      <choice>France</choice>
+      <choice>Croatia</choice>
+      <choice>Brazil</choice>
+    </choices>
+  </question>
+  <question id="9">
+    <wording>What is the distance of a marathon?</wording>
+    <choices>
+      <choice correct="yes">42.195 km</choice>
+      <choice>21.097 km</choice>
+      <choice>10,000 km</choice>
+      <choice>50,000 km</choice>
+    </choices>
+  </question>
+  <question id="10">

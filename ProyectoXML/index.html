@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz Deportivo Multilingüe</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <header>
+      <h1>🏆 Quiz de Deportes</h1>
+      <div class="quiz-info">
+        <div class="lang-selector">
+          <label for="lang">Idioma / Language:</label>
+          <select id="lang">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+        <div id="timer">⏱ 00:00</div>
+        <div id="score">Puntuación: 0/0</div>
+      </div>
+    </header>
+
+    <main>
+      <div id="quiz-box">
+        <div class="progress-container">
+          <div class="progress-bar" id="progress"></div>
+        </div>
+        <p id="question">Cargando preguntas...</p>
+        <div id="choices"></div>
+        <button id="next-btn">Comenzar Quiz</button>
+      </div>
+
+      <div id="result" class="hidden">
+        <div class="result-container">
+          <h2>¡Quiz Completado!</h2>
+          <div id="final-score" class="score-box"></div>
+          <div id="result-message" class="message-box"></div>
+          <button onclick="resetQuiz()" class="reset-btn">Reiniciar Quiz</button>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
