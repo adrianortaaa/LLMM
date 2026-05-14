@@ -39,5 +39,13 @@
 * [DTD-EJERCICIO-4-4](./DTD-EJERCICIO-4-4)
 * [DTD-EJERCICIO-4-5](./DTD-EJERCICIO-4-5)
 
-### 📂 Adicionales
-* [DTD-ADICIONAL-3](./DTD-ADICIONAL-3)
+
+# 📚 Ejercicios de Lenguajes de Marcas (DTD-ADICIONAL)
+
+Índice directo a los ejercicios resueltos en este repositorio:
+
+### 📂 Bloque 1
+* [DTD-ADICIONAL-1](./MODULOS)
+* [DTD-ADICIONAL-2](./ALUMNOS)
+* [DTD-ADICIONAL-3](./PEDIDOS)
+
