@@ -51,6 +51,7 @@ Haz clic en el nombre de cada ejercicio para ver el código directamente:
 * [XPATH-3](./XPATH-3/SOLUCION3.html)
 
 
+### 📂 XSD
 * [XSD 1 (Esquema)](./XSD-1/MODULOS.xsd) | [XSD 1 (XML)](./XSD-1/MODULOS_xsd.xml)
 
 
