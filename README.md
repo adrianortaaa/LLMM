@@ -1,6 +1,6 @@
 # 📚 Ejercicios de Lenguajes de Marcas (DTD)
 
-Índice directo a los ejercicios resueltos en este repositorio:
+Índice de ejercicios resueltos:
 
 ### 📂 Bloque 1
 * [DTD-EJERCICIO-1-1](./DTD-EJERCICIO-1-1)
@@ -39,13 +39,7 @@
 * [DTD-EJERCICIO-4-4](./DTD-EJERCICIO-4-4)
 * [DTD-EJERCICIO-4-5](./DTD-EJERCICIO-4-5)
 
-
-# 📚 Ejercicios de Lenguajes de Marcas (DTD-ADICIONAL)
-
-Índice directo a los ejercicios resueltos en este repositorio:
-
-### 📂 Bloque 1
-* [DTD-ADICIONAL-1](./MODULOS)
-* [DTD-ADICIONAL-2](./ALUMNOS)
-* [DTD-ADICIONAL-3](./PEDIDOS)
-
+### 📂 Ejercicios Adicionales
+* [DTD-ADICIONAL-1](./DTD-ADICIONAL-1)
+* [DTD-ADICIONAL-2](./DTD-ADICIONAL-2)
+* [DTD-ADICIONAL-3](./DTD-ADICIONAL-3)
